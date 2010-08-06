@@ -1,11 +1,20 @@
 package Catalyst::Helper::View::Tenjin;
+BEGIN {
+  $Catalyst::Helper::View::Tenjin::VERSION = '0.042';
+}
 
 use strict;
 use warnings;
 
+# ABSTRACT: Helper for creating Tenjin Views
+
 =head1 NAME
 
 Catalyst::Helper::View::Tenjin - Helper for creating Tenjin Views
+
+=head1 VERSION
+
+version 0.042
 
 =head1 SYNOPSIS
 
@@ -88,5 +97,4 @@ it under the same terms as Perl itself.
 
 =cut
 
-no Moose;
 __PACKAGE__->meta->make_immutable();

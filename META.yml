@@ -1,26 +1,26 @@
---- #YAML:1.0
-name:               Catalyst-View-Tenjin
-version:            0.041
-abstract:           Tenjin view class for Catalyst.
+---
+abstract: 'Tenjin view class for Catalyst.'
 author:
-    - Ido Perlmuter <ido@ido50.net>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Ido Perlmuter <ido@ido50.net>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Catalyst:     5.7
-    Data::Dump:   0
-    MRO::Compat:  0
-    Tenjin:       0.061
-    Test::More:   0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.102160'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Catalyst-View-Tenjin
+requires:
+  Catalyst::View: 0
+  Data::Dump: 0
+  Moose: 0
+  Tenjin: 0
+  namespace::autoclean: 0
+  perl: 5.006
+resources:
+  homepage: http://github.com/ido50/Catalyst-View-Tenjin/tree
+  repository: git://github.com/ido50/Catalyst-View-Tenjin.git
+version: 0.042

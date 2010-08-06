@@ -1,0 +1,49 @@
+{
+   "abstract" : "Tenjin view class for Catalyst.",
+   "author" : [
+      "Ido Perlmuter <ido@ido50.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.102160",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Catalyst-View-Tenjin",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Catalyst::View" : 0,
+            "Data::Dump" : 0,
+            "Moose" : 0,
+            "Tenjin" : 0,
+            "namespace::autoclean" : 0,
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://github.com/ido50/Catalyst-View-Tenjin/tree",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ido50/Catalyst-View-Tenjin.git",
+         "web" : "http://github.com/ido50/Catalyst-View-Tenjin/tree"
+      }
+   },
+   "version" : "0.042"
+}
+
