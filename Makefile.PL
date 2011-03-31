@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     'Tenjin' => '0.070001',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.050',
+  'VERSION' => '0.050001',
   'test' => {
     'TESTS' => 't/*.t'
   }

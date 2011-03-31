@@ -29,4 +29,4 @@ requires:
 resources:
   homepage: http://github.com/ido50/Catalyst-View-Tenjin/tree
   repository: git://github.com/ido50/Catalyst-View-Tenjin.git
-version: 0.050
+version: 0.050001

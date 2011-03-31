@@ -7,7 +7,7 @@ use namespace::autoclean;
 use Data::Dump 'dump';
 use Tenjin 0.070001;
 
-our $VERSION = "0.050";
+our $VERSION = "0.050001";
 $VERSION = eval $VERSION;
 
 extends 'Catalyst::View';
@@ -18,7 +18,7 @@ Catalyst::View::Tenjin - Tenjin view class for Catalyst.
 
 =head1 VERSION
 
-version 0.050
+version 0.050001
 
 =head1 SYNOPSIS
 
