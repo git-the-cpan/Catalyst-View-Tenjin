@@ -4,7 +4,7 @@
       "Ido Perlmuter <ido@ido50.net>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.102160",
+   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580",
    "license" : [
       "perl_5"
    ],
@@ -24,14 +24,20 @@
             "Catalyst::View" : 0,
             "Data::Dump" : 0,
             "Moose" : 0,
-            "Tenjin" : 0,
+            "Tenjin" : "0.070001",
             "namespace::autoclean" : 0,
-            "perl" : "5.006"
+            "perl" : "5.008"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : 0
+            "Catalyst" : 0,
+            "Catalyst::Controller" : 0,
+            "Catalyst::Runtime" : "5.80",
+            "Encode" : 0,
+            "FindBin" : 0,
+            "Test::More" : 0,
+            "utf8" : 0
          }
       }
    },
@@ -44,6 +50,6 @@
          "web" : "http://github.com/ido50/Catalyst-View-Tenjin/tree"
       }
    },
-   "version" : "0.042"
+   "version" : "0.050"
 }
 
